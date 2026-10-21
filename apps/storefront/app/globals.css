@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font Family Mapping */
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+
+  /* Color Palette Tokens */
+  --color-shop-white: #ffffff;
+  --color-shop-bg: #f9f8f6;          /* Clean warm white/bone page background */
+  --color-shop-surface: #f3efe9;     /* Device card frames, badge backgrounds */
+  --color-shop-border: #e6dfd5;      /* Subtle dividers and card outlines */
+  
+  /* Brown Palette (Structure, Branding, Text) */
+  --color-shop-espresso: #1a120b;    /* Navbars, footer, primary headings */
+  --color-shop-mocha: #3c2a21;       /* Body text, subheadings, heavy icons */
+  --color-shop-caramel: #8d624a;     /* Accent borders, category chips */
+  --color-shop-muted: #786f66;       /* Specs, metadata, star rating counts */
+
+  /* Red Palette (High-Intent Conversion Triggers) */
+  --color-shop-crimson: #d32f2f;     /* Main CTA buttons, urgent deal badges */
+  --color-shop-crimson-hover: #b71c1c; /* Hover/press states */
+  --color-shop-crimson-light: #fdecea; /* Light red tint for sales tags */
+}
+
+/* Base resets for clean rendering */
+body {
+  background-color: var(--color-shop-bg);
+  color: var(--color-shop-espresso);
+}
