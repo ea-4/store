@@ -24,3 +24,4 @@ export * from "./schema/catalog";
 export * from "./schema/orders";
 export * from "./schema/reservations";
 export * from "./schema/audit";
+export * from "./queries/catalog";

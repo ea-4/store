@@ -115,7 +115,7 @@ importers:
         specifier: ^6.3.5
         version: 6.4.3(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)(tsx@4.23.15)(yaml@2.9.1)
 
-  apps/backend:
+  apps/service:
     dependencies:
       cors:
         specifier: ^2.8.6
@@ -127,6 +127,9 @@ importers:
         specifier: ^4.22.3
         version: 4.22.3
     devDependencies:
+      '@repo/db':
+        specifier: workspace:*
+        version: link:../../packages/db
       '@types/cors':
         specifier: ^2.8.19
         version: 2.8.19
